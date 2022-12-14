@@ -1,6 +1,6 @@
-# Bitcoin Mining Pools
+# Bitcoin Cash Mining Pools
 
-Mining pools definition used on https://mempool.space/mining/pools
+Mining pools definition used on https://explorer.melroy.org/mining
 
 # Contributing
 
@@ -10,10 +10,10 @@ Contributions welcome. All changes must be applied in `pools.json` file.
 
 Regardless of the choosen method, we recommend adding a appropriate slug to each
 new mining pool you add to `pools.json`. The slug will be used as a unique tag for
-the mining pool, for example in the public facing urls like https://mempool.space/mining/pool/foundryusa (here `foundryusa` is the slug).
+the mining pool, for example in the public facing urls like https://explorer.melroy.org/mining/pool/foundryusa (here `foundryusa` is the slug).
 
 You can specify mining pool slugs in the `slugs` object in `pools.json`. If you
-don't specify one, we will automatically generate one [as such](https://github.com/mempool/mempool/blob/02820b0e6836c4202c2e346195e8aace357e3483/backend/src/api/pools-parser.ts#L106-L110).
+don't specify one, we will automatically generate one [as such](https://gitlab.melroy.org/bitcoincash/explorer/-/blob/02820b0e6836c4202c2e346195e8aace357e3483/backend/src/api/pools-parser.ts#L106-L110).
 
 ```javascript
 if (slug === undefined) {
@@ -45,7 +45,7 @@ For example:
 ```
 
 Each coinbase tag will be use as a regex to match blocks with their mining pool.
-This is how we use it in mempool application. You can see the code [here](https://github.com/mempool/mempool/blob/02820b0e6836c4202c2e346195e8aace357e3483/backend/src/api/blocks.ts#L238-L246).
+This is how we use it in BCH explorer application. You can see the code [here](https://gitlab.melroy.org/bitcoincash/explorer/-/blob/02820b0e6836c4202c2e346195e8aace357e3483/backend/src/api/blocks.ts#L238-L246).
 ```javascript
 const regexes: string[] = JSON.parse(pools[i].regexes);
 for (let y = 0; y < regexes.length; ++y) {
@@ -80,7 +80,7 @@ For example:
 
 Each address will be use to match blocks with their mining pool by matching the
 coinbase transaction output address.
-This is how we use it in mempool application. You can see the code [here](https://github.com/mempool/mempool/blob/02820b0e6836c4202c2e346195e8aace357e3483/backend/src/api/blocks.ts#L230-L236).
+This is how we use it in BCH explorer application. You can see the code [here](https://gitlab.melroy.org/bitcoincash/explorer/-/blob/02820b0e6836c4202c2e346195e8aace357e3483/backend/src/api/blocks.ts#L230-L236).
 ```javascript
 const address = txMinerInfo.vout[0].scriptpubkey_address;
 for (let i = 0; i < pools.length; ++i) {
@@ -150,19 +150,19 @@ following (using today's `pools.json` as reference):
 // Original
 "Foundry USA": "foundryusa",
 // Renamed - Be aware, this will also change the mining pool page link from
-mempool.space/mining/pool/foundryusa to mempool.space/mining/pool/foundrypool
+explorer.melroy.org/mining/pool/foundryusa to explorer.melroy.org/mining/pool/foundrypool
 "Foundry Pool": "foundrypool",
 ```
 
 ## Block re-indexing
 
 When a mining pool's coinbase tag or addresses is updated in `pools.jon`,
-mempool can automatically re-index the appropriate blocks in order to re-assign
+BCH explorer can automatically re-index the appropriate blocks in order to re-assign
 them to the correct mining pool.
 "Appropriate" blocks here concern all blocks which are not yet assigned to a
 mining pool (`unknown` pool), from block 130635 (first known mining pool block)
 as well as all blocks from the update mining pool.
-You can find the re-indexing logic [here](https://github.com/mempool/mempool/blob/02820b0e6836c4202c2e346195e8aace357e3483/backend/src/api/pools-parser.ts#L224-L249)
+You can find the re-indexing logic [here](https://gitlab.melroy.org/bitcoincash/explorer/-/blob/02820b0e6836c4202c2e346195e8aace357e3483/backend/src/api/pools-parser.ts#L224-L249)
 
 You can enable/disable this behavior using by setting the following backend
 configuration variable:
@@ -181,15 +181,15 @@ the latest mining pool data.
 
 ## Mining pool definition
 
-When the mempool backend starts, we automatically fetch the latest `pools.json`
-version from github. By default the url points to https://github.com/mempool/mining-pools/blob/master/pools.json but you can configure it to points to another repo by setting
+When the BCH explorer backend starts, we automatically fetch the latest `pools.json`
+version from github. By default the url points to https://gitlab.melroy.org/bitcoincash/mining-pools/-/blob/master/pools.json but you can configure it to points to another repo by setting
 the following backend variables:
 
 ```
 {
   "MEMPOOL": {
-    'POOLS_JSON_URL': 'https://raw.githubusercontent.com/mempool/mining-pools/master/pools.json',
-    'POOLS_JSON_TREE_URL': 'https://api.github.com/repos/mempool/mining-pools/git/trees/master'
+    'POOLS_JSON_URL': 'https://raw.githubusercontent.com/bitcoincash1/mining-pools/master/pools.json',
+    'POOLS_JSON_TREE_URL': 'https://api.github.com/repos/bitcoincash1/mining-pools/git/trees/master'
   }
 }
 ```
