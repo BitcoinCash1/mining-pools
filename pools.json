@@ -32,6 +32,30 @@
             "name" : "BTC.com",
             "link" : "https://pool.btc.com"
         },
+        "btc.com/BCHN": {
+            "name" : "BTC.com",
+            "link" : "https://pool.btc.com"
+        },
+        "/prohashing.com": {
+            "name" : "Prohashing",
+            "link" : "https://prohashing.com"
+        },
+        "/Mining-Dutch": {
+            "name" : "Mining-Dutch",
+            "link" : "https://www.mining-dutch.nl/"
+        },
+        "solomining.io /BCHN/": {
+            "name" : "Solo Mining",
+            "link" : "https://solomining.io/"
+        },
+        "Toomim Bros solo: http://toom.im": {
+            "name" : "Toomim Bros Solo",
+            "link" : "https://toom.im/"
+        },
+        "Toomim Bros/P2pool": {
+            "name" : "Toomim Bros P2Pool",
+            "link" : "https://toom.im/"
+        },
         "btccom" : {
             "name" : "BTC.com",
             "link" : "https://pool.btc.com"
@@ -898,6 +922,18 @@
             "name" : "BTC.com",
             "link" : "https://pool.btc.com"
         },
+        "bitcoincash:qz3yu2m8dzwrw5uc85a5pz78dyxnrvdhf5v8tlf8jd" : {
+            "name" : "Mining-Dutch",
+            "link" : "https://www.mining-dutch.nl/"
+        },
+        "bitcoincash:qrvw9us7ged6ma5c2c9ju9dmcts0658fpce9nduvzz" : {
+            "name" : "SBI Crypto",
+            "link" : "https://sbicrypto.com/"
+        },
+        "bitcoincash:qrnfkj0ya6sju73qf2m0cn05j23d5ztlyq8zjf49et" : {
+            "name" : "Bitcoin.com",
+            "link" : "https://bitcoin.com/"
+        },
         "18EPLvrs2UE11kWBB3ABS7Crwj5tTBYPoa" : {
             "name" : "GoGreenLight",
             "link" : "http://www.gogreenlight.se/"
@@ -1326,6 +1362,11 @@
         "Luxor": "luxor",
         "1THash": "1thash",
         "BTC.com": "btccom",
+        "Prohashing": "prohashing",
+        "Mining-Dutch": "miningdutch",
+        "Solo Mining": "solomining",
+        "Toomim Bros Solo": "toomimbrossolo",
+        "Toomim Bros P2Pool": "toomimbrosp2pool",
         "Bitfarms": "bitfarms",
         "Huobi.pool": "huobipool",
         "WAYI.CN": "wayicn",
