@@ -926,6 +926,22 @@
             "name" : "Mining-Dutch",
             "link" : "https://www.mining-dutch.nl/"
         },
+        "bitcoincash:qrkqx4q6tcqqjn40wfdd5j2f863sryg7zyahjc4wfn" : {
+            "name" : "Solo Mining",
+            "link" : "https://solomining.io/"
+        },
+        "bitcoincash:qppvn6zej2tv8utj58n5vasw8uf46tstls8mjj5fqn" : {
+            "name" : "Prohashing",
+            "link" : "https://prohashing.com"
+        },
+        "bitcoincash:qrcsfg5fcuqaehqssvxpftnlgz4gzk9e25ss3rqtve" : {
+            "name" : "Toomim Bros Solo",
+            "link" : "https://toom.im/"
+        },
+        "bitcoincash:qp2g5zsxs2238m0s593j8yce2k2l42qhfcvwnylmxh" : {
+            "name" : "Toomim Bros P2Pool",
+            "link" : "https://toom.im/"
+        },
         "bitcoincash:qrvw9us7ged6ma5c2c9ju9dmcts0658fpce9nduvzz" : {
             "name" : "SBI Crypto",
             "link" : "https://sbicrypto.com/"
