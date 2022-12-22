@@ -57,8 +57,8 @@
             "link" : "https://toom.im/"
         },
         "Bitdeer/BCHN": {
-            "name" : "Bitdeer",
-            "link" : "https://www.bitdeer.com/"
+            "name" : "BTC.com",
+            "link" : "https://pool.btc.com"
         },
         "btccom" : {
             "name" : "BTC.com",
@@ -906,23 +906,7 @@
             "name" : "Patels",
             "link" : "http://patelsminingpool.com/"
         },
-        "3NA8hsjfdgVkmmVS9moHmkZsVCoLxUkvvv" : {
-            "name" : "BTC.com",
-            "link" : "https://pool.btc.com"
-        },
-        "34qkc2iac6RsyxZVfyE2S5U5WcRsbg2dpK" : {
-            "name" : "BTC.com",
-            "link" : "https://pool.btc.com"
-        },
-        "3EhLZarJUNSfV6TWMZY1Nh5mi3FMsdHa5U" : {
-            "name" : "BTC.com",
-            "link" : "https://pool.btc.com"
-        },
-        "bc1qjl8uwezzlech723lpnyuza0h2cdkvxvh54v3dn" : {
-            "name" : "BTC.com",
-            "link" : "https://pool.btc.com"
-        },
-        "1Bf9sZvBHPFGVPX71WX2njhd1NXKv5y7v5" : {
+        "bitcoincash:qpv5y82t8z7n6w80fpm64afah7ntptxue59h5cdsn2" : {
             "name" : "BTC.com",
             "link" : "https://pool.btc.com"
         },
@@ -945,10 +929,6 @@
         "bitcoincash:qp2g5zsxs2238m0s593j8yce2k2l42qhfcvwnylmxh" : {
             "name" : "Toomim Bros P2Pool",
             "link" : "https://toom.im/"
-        },
-        "bitcoincash:qpv5y82t8z7n6w80fpm64afah7ntptxue59h5cdsn2" : {
-            "name" : "Bitdeer",
-            "link" : "https://www.bitdeer.com/"
         },
         "bitcoincash:qrvw9us7ged6ma5c2c9ju9dmcts0658fpce9nduvzz" : {
             "name" : "SBI Crypto",
@@ -1391,7 +1371,6 @@
         "Solo Mining": "solomining",
         "Toomim Bros Solo": "toomimbrossolo",
         "Toomim Bros P2Pool": "toomimbrosp2pool",
-        "Bitdeer" : "bitdeer",        
         "Bitfarms": "bitfarms",
         "Huobi.pool": "huobipool",
         "WAYI.CN": "wayicn",
