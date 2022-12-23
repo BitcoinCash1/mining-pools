@@ -966,6 +966,10 @@
             "name" : "Toomim Bros P2Pool",
             "link" : "https://toom.im/"
         },
+        "bitcoincash:qrcuqadqrzp2uztjl9wn5sthepkg22majyxw4gmv6p" : {
+            "name": "ViaBTC",
+            "link": "https://viabtc.com"
+        },
         "bitcoincash:qrvw9us7ged6ma5c2c9ju9dmcts0658fpce9nduvzz" : {
             "name" : "SBI Crypto",
             "link" : "https://sbicrypto.com/"
