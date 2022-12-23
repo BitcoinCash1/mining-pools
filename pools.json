@@ -626,6 +626,42 @@
         }
     },
     "payout_addresses" : {
+        "bitcoincash:qq0pg56eg90m7rv6en7l0vv4gpudh8wf3swa0hqsu2": {
+            "name": "Miner qq0pg",
+            "link": ""
+        },
+        "bitcoincash:qr8ger8kn2fz5cr73cp7ylkqznauyjyzuqwwh4uqht": {
+            "name": "Miner qr8ge",
+            "link": ""
+        },
+        "bitcoincash:qqm0xme5kvezkx6nv986tkk2kpvfcjlmm5snhfx4yl": {
+            "name": "Miner qqm0x",
+            "link": ""
+        },
+        "bitcoincash:qr2hw483fqhrsjs6kyc58fx50ypazn5mtqnvlmjc6c": {
+            "name": "Miner qr2hw",
+            "link": ""
+        },
+        "bitcoincash:qrv2y3pz0srqf6fhtuyep90qdf8zhf54e5k5c8yqug": {
+            "name": "Miner qrv2y",
+            "link": ""
+        },
+        "bitcoincash:qq0adqyntn2zl9tsyjfagnyda9j2gfjkk574lxyrxd": {
+            "name": "Miner qq0ad",
+            "link": ""
+        },
+        "bitcoincash:qrxscsnccwxyfa4m6p98hhchz7hqwcnplyjh34l47y": {
+            "name": "Miner qrxsc",
+            "link": ""
+        },
+        "bitcoincash:qpguwql63ye6t0yp8q5da9cszgejz4atxsc0u6x6q0": {
+            "name": "Miner qpguw",
+            "link": ""
+        },
+        "bitcoincash:qzhpwjj64m5v2mmq45j5n0z48jhv5ngkjg2qh950dy": {
+            "name": "Miner qzhpw",
+            "link": ""
+        },
         "1PzVut5X6Nx7Mv4JHHKPtVM9Jr9LJ4Rbry": {
             "name": "BlockFills",
             "link": "https://www.blockfills.com/mining/"
