@@ -662,6 +662,14 @@
             "name": "Miner qzhpw",
             "link": ""
         },
+        "bitcoincash:qp86vqw9eyrc2rawspx0lu3fax25h9pgguq89zpqs7": {
+            "name": "Miner qp86v",
+            "link": ""
+        },
+        "bitcoincash:qpqg6lamh4exangz396dnfd00aqmpsma4u86u4852z": {
+            "name": "Miner qpqg6",
+            "link": ""
+        },
         "1PzVut5X6Nx7Mv4JHHKPtVM9Jr9LJ4Rbry": {
             "name": "BlockFills",
             "link": "https://www.blockfills.com/mining/"
@@ -1409,6 +1417,8 @@
         "Miner qrxsc": "minerqrxsc",
         "Miner qpguw": "minerqpguw",
         "Miner qzhpw": "minerqzhpw",
+        "Miner qp86v": "minerqp86v",
+        "Miner qpqg6": "minerqpqg6",
         "BlockFills": "blockfills",
         "ULTIMUSPOOL": "ultimuspool",
         "Terra Pool": "terrapool",
