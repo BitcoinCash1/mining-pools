@@ -272,9 +272,9 @@
             "name" : "CKPool",
             "link" : "http://ckpool.org"
         },
-        "/NiceHashSolo" : {
+        "/NiceHash/": {
             "name" : "NiceHash",
-            "link" : "https://solo.nicehash.com/"
+            "link" : "https://nicehash.com/"
         },
         "/BitClub Network/" : {
             "name" : "BitClub",
@@ -668,6 +668,10 @@
         },
         "bitcoincash:qpqg6lamh4exangz396dnfd00aqmpsma4u86u4852z": {
             "name": "Miner qpqg6",
+            "link": ""
+        },
+        "bitcoincash:pqqsrl3tpspzpa0f560w9taavljy7uvz3qfyjmeuq3": {
+            "name": "CODEBLACK",
             "link": ""
         },
         "1PzVut5X6Nx7Mv4JHHKPtVM9Jr9LJ4Rbry": {
@@ -1423,6 +1427,7 @@
         "Miner qzhpw": "minerqzhpw",
         "Miner qp86v": "minerqp86v",
         "Miner qpqg6": "minerqpqg6",
+        "CODEBLACK": "codeblack",
         "BlockFills": "blockfills",
         "ULTIMUSPOOL": "ultimuspool",
         "Terra Pool": "terrapool",
