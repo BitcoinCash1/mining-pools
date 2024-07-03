@@ -623,6 +623,10 @@
         "Titan.io": {
             "name" : "Titan",
             "link" : "https://titan.io/"
+        },
+        "/Phoenix/": {
+            "name": "Phoenix",
+            "link": "https://www.phoenixpool.com/"
         }
     },
     "payout_addresses" : {
@@ -1413,6 +1417,10 @@
          "14hLEtxozmmih6Gg5xrGZLfx51bEMj21NW": {
             "name" : "Titan",
             "link" : "https://titan.io/"
+        },
+        "qrgqfhca7syfhxzv8euz70507nmm9tpjccj06uj6tu": {
+            "name" : "Phoenix",
+            "link" : "https://www.phoenixpool.com/"
         }
     },
     "slugs": {
@@ -1570,6 +1578,7 @@
         "tiger": "tiger",
         "1M1X": "1m1x",
         "OKMiner": "okminer",
-        "Titan": "titan"
+        "Titan": "titan",
+        "Phoenix": "Phoenix"
     }
 }
