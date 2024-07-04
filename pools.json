@@ -651,6 +651,10 @@
     "solopool.org": {
       "name": "SoloPool",
       "link": "https://solopool.org"
+    },
+    "/molepool.com/": {
+      "name": "Molepool",
+      "link": "https://molepool.com/"
     }
   },
   "payout_addresses": {
@@ -1461,6 +1465,10 @@
     "bitcoincash:qpj48a5yc4ra7zgf5a2yqzt3zcjs26v4nqp7gjhpck": {
       "name": "SoloPool",
       "link": "https://solopool.com/"
+    },
+    "bitcoincash:qqva9g3j8de4evpt95p4y4h5c3lwuw42gc3nwrq9ms": {
+      "name": "Molepool",
+      "link": "https://molepool.com/"
     }
   },
   "slugs": {
@@ -1621,6 +1629,7 @@
     "Phoenix": "phoenix",
     "2Miners": "2miners",
     "Pool-Moscow": "poolmoscow",
-    "SoloPool": "solopool"
+    "SoloPool": "solopool",
+    "Molepool": "molepool"
   }
 }
