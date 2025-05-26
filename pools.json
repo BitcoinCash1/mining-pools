@@ -464,6 +464,10 @@
             "name": "HashBX",
             "link": "https://hashbx.io"
         },
+        "/DPBCH/": {
+            "name": "DPBCH",
+            "link": ""
+        },
         "/DPOOL.TOP/": {
             "name" : "DPOOL",
             "link" : "http://www.dpool.top/"
@@ -623,6 +627,10 @@
         "Titan.io": {
             "name" : "Titan",
             "link" : "https://titan.io/"
+        },
+        "CyberPool-BCHN": {
+            "name" : "CyberPool-BCHN",
+            "link" : "https://cyberpool.io/"
         }
     },
     "payout_addresses" : {
@@ -673,6 +681,14 @@
         "bitcoincash:pqqsrl3tpspzpa0f560w9taavljy7uvz3qfyjmeuq3": {
             "name": "CODEBLACK",
             "link": ""
+        },
+        "bitcoincash:qz5zzdx2l6ud0extau5r9v2vd7h9u7m57g93q42p8z": {
+            "name" : "DPBCH",
+            "link" : ""
+        },
+        "bitcoincash:qz5h0nlgfjkgpr8dt400ua4hzn8jajs9psm5ehcadl": {
+            "name" : "CyberPool-BCHN",
+            "link" : "https://cyberpool.io/"
         },
         "1PzVut5X6Nx7Mv4JHHKPtVM9Jr9LJ4Rbry": {
             "name": "BlockFills",
@@ -1522,6 +1538,7 @@
         "MiningKings": "miningkings",
         "HashBX": "hashbx",
         "DPOOL": "dpool",
+        "DPBCH": "dpbch",
         "Rawpool": "rawpool",
         "haominer": "haominer",
         "Helix": "helix",
@@ -1570,6 +1587,7 @@
         "tiger": "tiger",
         "1M1X": "1m1x",
         "OKMiner": "okminer",
-        "Titan": "titan"
+        "Titan": "titan",
+        "CyberPool-BCHN": "cyberpoolbchn"
     }
 }
