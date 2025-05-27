@@ -472,6 +472,10 @@
             "name": "JCBCH",
             "link": ""
         },
+        "/luckyfastblocks/": {
+            "name": "LuckyFastBlocks",
+            "link": "https://luckyfastblocks.com/"
+        },
         "/DPOOL.TOP/": {
             "name" : "DPOOL",
             "link" : "http://www.dpool.top/"
@@ -693,6 +697,10 @@
         "bitcoincash:qrvekngs8qgew5ptlzatt730h938xgfsj53szz09s6": {
             "name" : "JCBCH",
             "link" : ""
+        },
+        "bitcoincash:qqywsag4jfqz6rg8jj7a32sj9zm0ks2x4uxn9pakep": {
+            "name" : "LuckyFastBlocks",
+            "link" : "https://luckyfastblocks.com/"
         },
         "bitcoincash:qz5h0nlgfjkgpr8dt400ua4hzn8jajs9psm5ehcadl": {
             "name" : "CyberPool-BCHN",
