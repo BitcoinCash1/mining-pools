@@ -468,6 +468,10 @@
             "name": "DPBCH",
             "link": ""
         },
+        "/JCBCH/": {
+            "name": "JCBCH",
+            "link": ""
+        },
         "/DPOOL.TOP/": {
             "name" : "DPOOL",
             "link" : "http://www.dpool.top/"
@@ -684,6 +688,10 @@
         },
         "bitcoincash:qz5zzdx2l6ud0extau5r9v2vd7h9u7m57g93q42p8z": {
             "name" : "DPBCH",
+            "link" : ""
+        },
+        "bitcoincash:qrvekngs8qgew5ptlzatt730h938xgfsj53szz09s6": {
+            "name" : "JCBCH",
             "link" : ""
         },
         "bitcoincash:qz5h0nlgfjkgpr8dt400ua4hzn8jajs9psm5ehcadl": {
@@ -1539,6 +1547,7 @@
         "HashBX": "hashbx",
         "DPOOL": "dpool",
         "DPBCH": "dpbch",
+        "JCBCH": "jcbch",
         "Rawpool": "rawpool",
         "haominer": "haominer",
         "Helix": "helix",
