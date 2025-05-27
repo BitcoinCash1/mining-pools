@@ -1556,6 +1556,7 @@
         "DPOOL": "dpool",
         "DPBCH": "dpbch",
         "JCBCH": "jcbch",
+        "LuckyFastBlocks": "luckyfastblocks",
         "Rawpool": "rawpool",
         "haominer": "haominer",
         "Helix": "helix",
