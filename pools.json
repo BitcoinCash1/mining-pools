@@ -639,6 +639,10 @@
         "CyberPool-BCHN": {
             "name" : "CyberPool-BCHN",
             "link" : "https://cyberpool.io/"
+        },
+        "OneClickMiner.com": {
+            "name" : "OneClickMiner",
+            "link" : "https://oneclickminer.com/"
         }
     },
     "payout_addresses" : {
@@ -705,6 +709,10 @@
         "bitcoincash:qz5h0nlgfjkgpr8dt400ua4hzn8jajs9psm5ehcadl": {
             "name" : "CyberPool-BCHN",
             "link" : "https://cyberpool.io/"
+        },
+        "bitcoincash:qqrhdg5knehmxslhtwlee3anh27rlxgepudj267mcy": {
+            "name" : "OneClickMiner",
+            "link" : "https://oneclickminer.com/"
         },
         "1PzVut5X6Nx7Mv4JHHKPtVM9Jr9LJ4Rbry": {
             "name": "BlockFills",
@@ -1606,6 +1614,7 @@
         "1M1X": "1m1x",
         "OKMiner": "okminer",
         "Titan": "titan",
-        "CyberPool-BCHN": "cyberpoolbchn"
+        "CyberPool-BCHN": "cyberpoolbchn",
+        "OneClickMiner": "oneclickminer"
     }
 }
