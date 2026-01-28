@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
 OUTPUT=$(cat pools-v2.json | jq 'group_by(.id) | map(select(length>1) | .[])')
 
 if [ "$OUTPUT" = "[]" ]; then
