@@ -1292,7 +1292,7 @@
   },
   {
     "id": 168,
-    "name": "Toomim Bros. solo",
+    "name": "Toomim Bros. Solo",
     "addresses": ["bitcoincash:qrcsfg5fcuqaehqssvxpftnlgz4gzk9e25ss3rqtve"],
     "tags": ["Toomim Bros solo", "Toomim Bros solo: http://toom.im"],
     "link": "http://toom.im"
@@ -1468,5 +1468,12 @@
     "addresses": ["bitcoincash:qq6vgrl366jpvkfq6g02j5n7d6nxetdm2spg4yda2x"],
     "tags": ["Mined by Bitofsin pool"],
     "link": "https://pool.bitofsin.com"
+  },
+  {
+    "id": 191,
+    "name": "CyberPool-BCHN",
+    "addresses": ["bitcoincash:qz5h0nlgfjkgpr8dt400ua4hzn8jajs9psm5ehcadl"],
+    "tags": ["CyberPool-BCHN"],
+    "link": "https://cyberpool.io"
   }
 ]
