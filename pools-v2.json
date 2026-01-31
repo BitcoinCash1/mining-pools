@@ -1424,5 +1424,49 @@
     "addresses": ["bitcoincash:qr4jl0valwxwgjare200vcw7nmqpee79cyqraxcxun"],
     "tags": ["XPpool.in/XP BCH PooL/", "/XP BCH PooL/", "XPpool.in"],
     "link": "https://xppool.in"
+  },
+  {
+    "id": 185,
+    "name": "SoloPool",
+    "addresses": ["bitcoincash:qpj48a5yc4ra7zgf5a2yqzt3zcjs26v4nqp7gjhpck"],
+    "tags": ["solopool.org"],
+    "link": "https://solopool.org"
+  },
+  {
+    "id": 186,
+    "name": "Molepool",
+    "addresses": ["bitcoincash:qqva9g3j8de4evpt95p4y4h5c3lwuw42gc3nwrq9ms"],
+    "tags": ["/molepool.com/"],
+    "link": "https://molepool.com"
+  },
+  {
+    "id": 187,
+    "name": "2Miners",
+    "addresses": ["bitcoincash:qzg9aqqyfhja9ws0r2q6c052jxuwsm0lsg2zuuhmpx"],
+    "tags": ["2Miners", "2Miners https://2miners.com"],
+    "link": "https://2miners.com"
+  },
+
+  {
+    "id": 188,
+    "name": "CoinThePool",
+    "addresses": ["bitcoincash:qzfjjfq2y6huu63slgpr2pw635ucdqfllsjj5m57tw"],
+    "tags": ["/mined by CoinThePool/"],
+    "link": ""
+  },
+
+  {
+    "id": 189,
+    "name": "HashHut",
+    "addresses": ["bitcoincash:qpp8gueakqnmvg3mvepy5ks0h2e0m07qwgp52n7mak"],
+    "tags": ["/hash-hut.net/"],
+    "link": "https://hash-hut.net/"
+  },
+  {
+    "id": 190,
+    "name": "Bitofsin pool",
+    "addresses": ["bitcoincash:qq6vgrl366jpvkfq6g02j5n7d6nxetdm2spg4yda2x"],
+    "tags": ["Mined by Bitofsin pool"],
+    "link": "https://pool.bitofsin.com"
   }
 ]
