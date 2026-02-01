@@ -8,34 +8,38 @@ Contributions welcome! All changes must be applied in `pools-v2.json` file.
 
 ## Adding a new mining pool
 
-Regardless of the choosen method, we recommend adding a appropriate slug to each
-new mining pool you add to `pools-v2.json`. The slug will be used as a unique tag for
-the mining pool, for example in the public facing URLs like: https://bchexplorer.cash/mining/pool/foundryusa (here `foundryusa` is the slug).
+Adding a new mining pool is done by extending the `pools-v2.json` file. It is important to give it an unique ID (`id` key).
 
-### Add a new mining pool by `coinbase_tags`
+And run: `./dupes.sh` script to validate that there are *no* duplicates.
+
+_Note:_ The pool name will automatically becomes the slug (eg. https://bchexplorer.cash/mining/pool/viabtc (here `viabtc` is the slug).
+
+### New mining pool (detailed explanation)
 
 You can add a new mining pool by specifying the coinbase tag they're using in
 the coinbase transaction.
 
-To add a new pool, you must add a new JSON object in the `coinbase_tags` object.
-Note that you can add multiple tags for the same mining pool, but you _must_ use
-the exact same values for `name` and `link` in each new entry.
+To add a new pool, you must add a new **JSON object** (see example below) at the bottom of the existing `pools-v2.json` **JSON array**.
 
+Note that you can add multiple `tags` (type array) for the same mining pool. Same for `addresses` (optional).
 For example:
 
 ```json
-"Foundry USA Pool" : {
-  "name" : "Foundry USA",
-  "link" : "https://foundrydigital.com/"
-},
-"Foundry USA Pool another tag" : {
-  "name" : "Foundry USA",
-  "link" : "https://foundrydigital.com/"
+{
+  "id": 6,
+  "name": "BTC.com",
+  "addresses": [
+    "bitcoincash:qpv5y82t8z7n6w80fpm64afah7ntptxue59h5cdsn2"
+  ],
+  "tags": ["/BTC.COM/", "/BTC.com/", "btccom"],
+  "link": "https://pool.btc.com"
 },
 ```
 
+---
+
 Each coinbase tag will be use as a regex to match blocks with their mining pool.
-This is how we use it in mempool application. You can see the code [here](https://gitlab.melroy.org/bitcoincash/bitcoin-cash-explorer/-/blob/main/backend/src/api/pools-parser.ts?ref_type=heads#L148).
+This is how we use it in BCH Explorer application. You can see the code [here](https://gitlab.melroy.org/bitcoincash/bitcoin-cash-explorer/-/blob/main/backend/src/api/pools-parser.ts?ref_type=heads#L148).
 
 ```ts
 const regexes: string[] =
@@ -51,30 +55,9 @@ for (let y = 0; y < regexes.length; ++y) {
 }
 ```
 
-### Add a new mining pool by `payout_addresses`
-
-You can add a new mining pool by specifying the receiving address they're using in
-the coinbase transaction to receive the miner reward.
-
-To add a new pool, you must add a new JSON object in the `payout_addresses` object.
-Note that you can add multiple addresses for the same mining pool, but you _must_ use
-the exact same values for `name` and `link` in each new entry.
-For example:
-
-```json
-"1FFxkVijzvUPUeHgkFjBk2Qw8j3wQY2cDw" : {
-    "name" : "Foundry USA",
-    "link" : "https://foundrydigital.com/"
-},
-"12KKDt4Mj7N5UAkQMN7LtPZMayenXHa8KL" : {
-    "name" : "Foundry USA",
-    "link" : "https://foundrydigital.com/"
-},
-```
-
 Each address will be use to match blocks with their mining pool by matching the
 coinbase transaction output address.
-This is how we use it in mempool application. You can see the code [here](https://gitlab.melroy.org/bitcoincash/bitcoin-cash-explorer/-/blob/main/backend/src/api/pools-parser.ts?ref_type=heads#L139).
+This is how we use it in BCH Explorer application. You can see the code [here](https://gitlab.melroy.org/bitcoincash/bitcoin-cash-explorer/-/blob/main/backend/src/api/pools-parser.ts?ref_type=heads#L139).
 
 ```ts
 const poolAddresses: string[] =
@@ -88,73 +71,38 @@ for (let y = 0; y < poolAddresses.length; y++) {
 }
 ```
 
-## Change an existing mining pool metadata
+## Change an existing mining pool
 
-You can also change an existing mining pool's name, link and slug. In order to
-do so properly, you must update all existing entry in the `pools-v2.json` file.
-
-For example, if you'd like to rename `Foundry USA` to `Foundry Pool`, you must replace
-all occurences of the old string with the new one in `pools-v2.json` file, with no
-exception, otherwise you'll end with two mining pools. The samme idea applies if
-you want to change the link or the slug.
-
-For example, to rename `Foundry USA` to `Foundry Pool` you'd need to update the
+For example, to rename `BTC.com` to `BTC` you'd need to update the 
 following (using today's `pools-v2.json` as reference):
 
 ```json
 // Original
-"Foundry USA Pool" : {
-    "name" : "Foundry USA",
-    "link" : "https://foundrydigital.com/"
-},
-  "/2cDw/" : {
-    "name" : "Foundry USA",
-    "link" : "https://foundrydigital.com/"
-},
-// Renamed
-"Foundry USA Pool" : {
-    "name" : "Foundry Pool",
-    "link" : "https://foundrydigital.com/"
-},
-  "/2cDw/" : {
-    "name" : "Foundry Pool",
-    "link" : "https://foundrydigital.com/"
-},
-```
-
-```json
-// Original
-"1FFxkVijzvUPUeHgkFjBk2Qw8j3wQY2cDw" : {
-    "name" : "Foundry USA",
-    "link" : "https://foundrydigital.com/"
-},
-"12KKDt4Mj7N5UAkQMN7LtPZMayenXHa8KL" : {
-    "name" : "Foundry USA",
-    "link" : "https://foundrydigital.com/"
+{
+  "id": 6,
+  "name": "BTC.com",
+  "addresses": [
+    "bitcoincash:qpv5y82t8z7n6w80fpm64afah7ntptxue59h5cdsn2"
+  ],
+  "tags": ["/BTC.COM/", "/BTC.com/", "btccom"],
+  "link": "https://pool.btc.com"
 },
 // Renamed
-"1FFxkVijzvUPUeHgkFjBk2Qw8j3wQY2cDw" : {
-    "name" : "Foundry Pool",
-    "link" : "https://foundrydigital.com/"
+{
+  "id": 6,
+  "name": "BTC",
+  "addresses": [
+    "bitcoincash:qpv5y82t8z7n6w80fpm64afah7ntptxue59h5cdsn2"
+  ],
+  "tags": ["/BTC.COM/", "/BTC.com/", "btccom"],
+  "link": "https://pool.btc.com"
 },
-"12KKDt4Mj7N5UAkQMN7LtPZMayenXHa8KL" : {
-    "name" : "Foundry Pool",
-    "link" : "https://foundrydigital.com/"
-},
-```
-
-```json
-// Original
-"Foundry USA": "foundryusa",
-// Renamed - Be aware, this will also change the mining pool page link from
-// bchexplorer.cash/mining/pool/foundryusa to bchexplorer.cash/mining/pool/foundrypool
-"Foundry Pool": "foundrypool",
 ```
 
 ## Block re-indexing
 
 When a mining pool's coinbase tag or addresses is updated in `pools-v2.jon`,
-mempool can automatically re-index the appropriate blocks in order to re-assign
+BCH Explorer can automatically re-index the appropriate blocks in order to re-assign
 them to the correct mining pool.
 
 "Appropriate" blocks here concern all blocks which are not yet assigned to a
@@ -167,7 +115,7 @@ configuration variable:
 
 ```json
 {
-  "MEMPOOL": {
+  "EXPLORER": {
     "AUTOMATIC_POOLS_UPDATE": false
   }
 }
@@ -180,13 +128,13 @@ the latest mining pool data.
 
 ## Mining pool definition
 
-When the mempool backend starts, we automatically fetch the latest `pools-v2.json`
+When the BCH Explorer backend (re)starts, we automatically fetch the latest `pools-v2.json`
 version from github. By default the url points to `https://gitlab.melroy.org/bitcoincash/mining-pools/-/raw/main/pools-v2.json` but you can configure it to points to another repo by setting
 the following backend variables:
 
 ```json
 {
-  "MEMPOOL": {
+  "EXPLORER": {
     "POOLS_JSON_URL": "https://gitlab.melroy.org/bitcoincash/mining-pools/-/raw/main/pools-v2.json",
     "POOLS_JSON_TREE_URL": "https://gitlab.melroy.org/api/v4/projects/199/repository/tree"
   }
