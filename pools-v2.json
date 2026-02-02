@@ -1421,7 +1421,7 @@
   {
     "id": 184,
     "name": "XP Pool",
-    "addresses": ["bitcoincash:qr4jl0valwxwgjare200vcw7nmqpee79cyqraxcxun"],
+    "addresses": ["bitcoincash:qrvfv8jqz7ga0nc97t73sam9ja0fvhyd3q78k4ntj8"],
     "tags": ["XPpool.in/XP BCH PooL/", "/XP BCH PooL/", "XPpool.in"],
     "link": "https://xppool.in"
   },
