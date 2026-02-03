@@ -1482,5 +1482,12 @@
     "addresses": ["bitcoincash:qz5h0nlgfjkgpr8dt400ua4hzn8jajs9psm5ehcadl"],
     "tags": ["Imrbtc pool"],
     "link": ""
+  },
+  {
+    "id": 193,
+    "name": "1Miner.Net",
+    "addresses": ["bitcoincash:qryh2r0rvntcdy8jepqmvmwqzfwzvcdfyqjus65c9c"],
+    "tags": ["Mined By 1Miner.Net"],
+    "link": "https://1miner.net"
   }
 ]
