@@ -1475,5 +1475,12 @@
     "addresses": ["bitcoincash:qz5h0nlgfjkgpr8dt400ua4hzn8jajs9psm5ehcadl"],
     "tags": ["CyberPool-BCHN"],
     "link": "https://cyberpool.io"
+  },
+  {
+    "id": 192,
+    "name": "Imrbtc Pool",
+    "addresses": ["bitcoincash:qz5h0nlgfjkgpr8dt400ua4hzn8jajs9psm5ehcadl"],
+    "tags": ["Imrbtc pool"],
+    "link": ""
   }
 ]
