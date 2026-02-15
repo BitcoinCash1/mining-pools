@@ -1489,5 +1489,12 @@
     "addresses": ["bitcoincash:qryh2r0rvntcdy8jepqmvmwqzfwzvcdfyqjus65c9c"],
     "tags": ["Mined By 1Miner.Net"],
     "link": "https://1miner.net"
+  },
+  {
+    "id": 194,
+    "name": "Harshy's Pool",
+    "addresses": ["bitcoincash:qqj9rrt85mzdhf3mknppz7xvkxnxlxel9ynfku43nh"],
+    "tags": ["Harshy's Pool"],
+    "link": "https://harshy.site/"
   }
 ]
