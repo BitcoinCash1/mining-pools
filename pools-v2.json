@@ -1489,5 +1489,19 @@
     "addresses": ["bitcoincash:qryh2r0rvntcdy8jepqmvmwqzfwzvcdfyqjus65c9c"],
     "tags": ["Mined By 1Miner.Net"],
     "link": "https://1miner.net"
+  },
+  {
+    "id": 194,
+    "name": "BitcoinCashPool.org",
+    "addresses": ["bitcoincash:qzsjpflyh3urtc5hhrtsnwag9xjr09qlkyxc502fu3"],
+    "tags": ["/BitcoinCashPool.org/"],
+    "link": "https://bitcoincashpool.org"
+  },
+  {
+    "id": 195,
+    "name": "PoolBTC",
+    "addresses": ["bitcoincash:qzk3vusm54qw4x7ylkl9d875uc90rrd6cusp7setq4"],
+    "tags": ["poolbtc.io"],
+    "link": "https://poolbtc.io"
   }
 ]
