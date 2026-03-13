@@ -10,9 +10,9 @@ Contributions welcome! All changes must be applied in `pools-v2.json` file.
 
 Adding a new mining pool is done by extending the `pools-v2.json` file. It is important to give it an unique ID (`id` key).
 
-And run: `./dupes.sh` script to validate that there are *no* duplicates.
+And run: `./dupes.sh` script to validate that there are _no_ duplicates.
 
-_Note:_ The pool name will automatically becomes the slug (eg. https://bchexplorer.cash/mining/pool/viabtc (here `viabtc` is the slug).
+_Note:_ The pool name will automatically becomes the slug, eg. https://bchexplorer.cash/mining/pool/viabtc (here `viabtc` is the slug).
 
 ### New mining pool (detailed explanation)
 
@@ -73,7 +73,7 @@ for (let y = 0; y < poolAddresses.length; y++) {
 
 ## Change an existing mining pool
 
-For example, to rename `BTC.com` to `BTC` you'd need to update the 
+For example, to rename `BTC.com` to `BTC` you'd need to update the
 following (using today's `pools-v2.json` as reference):
 
 ```json
