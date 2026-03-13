@@ -1503,5 +1503,12 @@
     "addresses": ["bitcoincash:qzk3vusm54qw4x7ylkl9d875uc90rrd6cusp7setq4"],
     "tags": ["poolbtc.io"],
     "link": "https://poolbtc.io"
+  },
+  {
+    "id": 196,
+    "name": "Harshy's Pool",
+    "addresses": ["bitcoincash:qqj9rrt85mzdhf3mknppz7xvkxnxlxel9ynfku43nh"],
+    "tags": ["/Harshy's Pool/"],
+    "link": "https://harshy.site"
   }
 ]
