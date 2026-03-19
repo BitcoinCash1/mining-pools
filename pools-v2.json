@@ -1517,5 +1517,12 @@
     "addresses": ["18tzLWLydxCfd4ZEfbbcm4RcJqQGjkMpQY"],
     "tags": ["MineSolo.co.uk"],
     "link": "https://minesolo.co.uk"
+  },
+  {
+    "id": 198,
+    "name": "BitSolo.me",
+    "addresses": ["1GxRptMLfk61pNwFw9FxKN6Ei3AYYZzRJj"],
+    "tags": ["bitsolo.me"],
+    "link": "https://bitsolo.me"
   }
 ]
