@@ -1510,5 +1510,12 @@
     "addresses": ["bitcoincash:qqj9rrt85mzdhf3mknppz7xvkxnxlxel9ynfku43nh"],
     "tags": ["/Harshy's Pool/"],
     "link": "https://harshy.site"
+  },
+  {
+    "id": 197,
+    "name": "MineSolo.co.uk",
+    "addresses": ["18tzLWLydxCfd4ZEfbbcm4RcJqQGjkMpQY"],
+    "tags": ["MineSolo.co.uk"],
+    "link": "https://minesolo.co.uk"
   }
 ]
