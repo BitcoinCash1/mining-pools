@@ -1524,5 +1524,12 @@
     "addresses": ["1GxRptMLfk61pNwFw9FxKN6Ei3AYYZzRJj"],
     "tags": ["bitsolo.me"],
     "link": "https://bitsolo.me"
+  },
+  {
+    "id": 199,
+    "name": "VeraPool.io",
+    "addresses": ["bitcoincash:qzx2te64nn794rqvp243zh2jhm9fzzuh75t06ydqax"],
+    "tags": ["/VeraPool.io/"],
+    "link": "https://verapool.io"
   }
 ]
