@@ -1538,5 +1538,26 @@
     "addresses": ["bitcoincash:qremapper3cngzck5qz3u4rrq6avrwe4uue2zycvcl"],
     "tags": ["/Remapper/"],
     "link": ""
+  },
+  {
+    "id": 201,
+    "name": "joseseascripto",
+    "addresses": ["bitcoincash:qp05lsfl3zv0xkputhvdve0uu8n4rgtdju3254fk55"],
+    "tags": ["/joseseascripto/"],
+    "link": ""
+  },
+  {
+    "id": 202,
+    "name": "BCHPool.com",
+    "addresses": ["1HaT1kwFUWiSPtjwb8cAA7u3uXi3HFvbJ3"],
+    "tags": ["BCHPool.com"],
+    "link": "https://bchpool.com"
+  },
+  {
+    "id": 203,
+    "name": "hitablock.com",
+    "addresses": ["bitcoincash:qqt42efq2j0uhe282m0pjwrdwafjktrd3ykjyc02wm"],
+    "tags": ["hitablock.com"],
+    "link": "https://hitablock.com"
   }
 ]
