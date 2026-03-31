@@ -395,7 +395,7 @@
   {
     "id": 51,
     "name": "NiceHash",
-    "addresses": [""],
+    "addresses": ["bitcoincash:qrd5r5eucfsl352wfk4x6cxp70fayqyulysaxljdrn"],
     "tags": ["/NiceHashSolo", "/NiceHash/", "/NiceHashMining/"],
     "link": "https://www.nicehash.com"
   },
@@ -1531,5 +1531,12 @@
     "addresses": ["bitcoincash:qzx2te64nn794rqvp243zh2jhm9fzzuh75t06ydqax"],
     "tags": ["/VeraPool.io/"],
     "link": "https://verapool.io"
+  },
+  {
+    "id": 200,
+    "name": "Remapper",
+    "addresses": ["bitcoincash:qremapper3cngzck5qz3u4rrq6avrwe4uue2zycvcl"],
+    "tags": ["/Remapper/"],
+    "link": ""
   }
 ]
