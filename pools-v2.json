@@ -1559,5 +1559,12 @@
     "addresses": ["bitcoincash:qqt42efq2j0uhe282m0pjwrdwafjktrd3ykjyc02wm"],
     "tags": ["hitablock.com"],
     "link": "https://hitablock.com"
+  },
+  {
+    "id": 204,
+    "name": "bch.ee Parasite Pool",
+    "addresses": ["bitcoincash:qrfc3wmnnm5ku2rxlsgk4w00s5ktel6exv4m8l0ulj"],
+    "tags": ["/bch.ee/"],
+    "link": "https://bch.ee"
   }
 ]
