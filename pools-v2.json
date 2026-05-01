@@ -1566,5 +1566,12 @@
     "addresses": ["bitcoincash:qrfc3wmnnm5ku2rxlsgk4w00s5ktel6exv4m8l0ulj"],
     "tags": ["/bch.ee/"],
     "link": "https://bch.ee"
+  },
+  {
+    "id": 205,
+    "name": "BST Technology",
+    "addresses": ["bitcoincash:qrljtdg2y2032d793y3q94sav806cnze0q0q2ptt52"],
+    "tags": ["BST.technology"],
+    "link": "https://bst.technology"
   }
 ]
