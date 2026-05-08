@@ -1573,5 +1573,12 @@
     "addresses": ["bitcoincash:qrljtdg2y2032d793y3q94sav806cnze0q0q2ptt52"],
     "tags": ["BST.technology"],
     "link": "https://bst.technology"
+  },
+  {
+    "id": 206,
+    "name": "Second Chance Digital",
+    "addresses": ["bitcoincash:qqrv9kvfvu8mtldpha83qmkg33fnyrdn9vgllqcw3g"],
+    "tags": ["/Second Chance Digital/"],
+    "link": "https://www.2ndchancedigital.com"
   }
 ]
