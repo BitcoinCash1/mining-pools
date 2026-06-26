@@ -1594,5 +1594,12 @@
     "addresses": [],
     "tags": ["SoloFury BCH"],
     "link": "https://solofury.com"
+  },
+  {
+    "id": 209,
+    "name": "FenixPool",
+    "addresses": ["bitcoincash:qzxdv0pelqju6k2wxqnsggxtn34c8rwnecnnwzkgzs"],
+    "tags": ["fenixpool.com"],
+    "link": "https://fenixpool.com"
   }
 ]
