@@ -1611,5 +1611,19 @@
     "addresses": ["bitcoincash:qzxdv0pelqju6k2wxqnsggxtn34c8rwnecnnwzkgzs"],
     "tags": ["fenixpool.com"],
     "link": "https://fenixpool.com"
+  },
+  {
+    "id": 211,
+    "name": "AlphaSoloPool",
+    "addresses": ["bitcoincash:qq66dg3vhczrqf4zy4kxje3c45vz47khsufsludxcc", "bitcoincash:pprnm6y6u6hstsf6mtm0rd6t6jtvgu56egykdau069"],
+    "tags": ["/AlphaSoloPool.com/"],
+    "link": "https://alphasolopool.com"
+  },
+  {
+    "id": 212,
+    "name": "OwnBlock",
+    "addresses": ["bitcoincash:qr6zwanr9d2v4xqjqmylumzh0sey4z2t8qv5mrt9uk"],
+    "tags": ["/ownblock/"],
+    "link": "https://ownblock.io"
   }
 ]
