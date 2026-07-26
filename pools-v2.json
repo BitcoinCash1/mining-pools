@@ -1598,10 +1598,7 @@
   {
     "id": 209,
     "name": "MikeyRocks",
-    "addresses": [
-      "bitcoincash:qq37ruy7gj6emnpus8pv73kfzvr0pxt05qcmdwd8w3",
-      "14GjKJ5wcD3HkJuCB16yt3Lg6gWfGA4P28"
-    ],
+    "addresses": [],
     "tags": ["/MikeyRocks/", "MikeyRocks"],
     "link": ""
   },
