@@ -1622,5 +1622,12 @@
     "addresses": ["bitcoincash:qr6zwanr9d2v4xqjqmylumzh0sey4z2t8qv5mrt9uk"],
     "tags": ["/ownblock/"],
     "link": "https://ownblock.io"
+  },
+  {
+    "id": 213,
+    "name": "MySoloPool",
+    "addresses": ["bitcoincash:qpyhp665m52n7ehm660dfnjg4tesg5lt7crjv3p4df"],
+    "tags": ["Mysolopool.com-BCH", "Mysolopool.com"],
+    "link": "https://bitcoincash.mysolopool.com"
   }
 ]
