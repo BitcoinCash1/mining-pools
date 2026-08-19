@@ -1622,5 +1622,12 @@
     "addresses": ["bitcoincash:qr6zwanr9d2v4xqjqmylumzh0sey4z2t8qv5mrt9uk"],
     "tags": ["/ownblock/"],
     "link": "https://ownblock.io"
+  },
+  {
+    "id": 213,
+    "name": "BCH Solo mining",
+    "addresses": ["bitcoincash:qpx8l4yknwpmca8zar98crm353n6hphz8glnvvxgha"],
+    "tags": ["/BCH Solo mining/"],
+    "link": ""
   }
 ]
