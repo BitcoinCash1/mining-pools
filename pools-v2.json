@@ -1629,5 +1629,12 @@
     "addresses": ["bitcoincash:qpx8l4yknwpmca8zar98crm353n6hphz8glnvvxgha"],
     "tags": ["/BCH Solo mining/"],
     "link": ""
+  },
+  {
+    "id": 214,
+    "name": "bitcoincash.ee Pool",
+    "addresses": ["bitcoincash:qr9fs2jzrxrcc3qhpqaq26ttq0g0us4jh5n35pddsc"],
+    "tags": ["/bitcoincash.ee/"],
+    "link": "https://bitcoincash.ee"
   }
 ]
