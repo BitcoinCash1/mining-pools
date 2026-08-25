@@ -1637,4 +1637,11 @@
     "tags": ["/bitcoincash.ee/"],
     "link": "https://bitcoincash.ee"
   }
+  {
+    "id": 215,
+    "name": "BritPool",
+    "addresses": [],
+    "tags": ["/BritPool/"],
+    "link": "https://britpool.com"
+  }
 ]
