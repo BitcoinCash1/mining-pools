@@ -1706,5 +1706,19 @@
     "addresses": ["bitcoincash:qrfc9tvc5dx4ywgmnxj5yy95xdrg7ra9eupjeshhfq"],
     "tags": ["/Doutor Score/"],
     "link": ""
+  },
+  {
+    "id": 225,
+    "name": "SoloMiners space",
+    "addresses": [],
+    "tags": ["SoloMiners.space"],
+    "link": "https://solominers.space/bch/"
+  },
+  {
+    "id": 226,
+    "name": "Solo-Odds",
+    "addresses": ["bitcoincash:qr53f5nze3dj5jj86qnkyzkp634v66hrnufeqkl24z"],
+    "tags": ["/Solo-Odds.com/"],
+    "link": "https://solo-odds.com/pool/"
   }
 ]
