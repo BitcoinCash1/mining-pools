@@ -1612,7 +1612,10 @@
   {
     "id": 211,
     "name": "AlphaSoloPool",
-    "addresses": ["bitcoincash:qq66dg3vhczrqf4zy4kxje3c45vz47khsufsludxcc", "bitcoincash:pprnm6y6u6hstsf6mtm0rd6t6jtvgu56egykdau069"],
+    "addresses": [
+      "bitcoincash:qq66dg3vhczrqf4zy4kxje3c45vz47khsufsludxcc",
+      "bitcoincash:pprnm6y6u6hstsf6mtm0rd6t6jtvgu56egykdau069"
+    ],
     "tags": ["/AlphaSoloPool.com/"],
     "link": "https://alphasolopool.com"
   },
@@ -1720,5 +1723,12 @@
     "addresses": ["bitcoincash:qr53f5nze3dj5jj86qnkyzkp634v66hrnufeqkl24z"],
     "tags": ["/Solo-Odds.com/"],
     "link": "https://solo-odds.com/pool/"
+  },
+  {
+    "id": 227,
+    "name": "Rabid Pool",
+    "addresses": ["bitcoincash:qrtrtv77m8y9m0ljfughee6zj33pgmv4hccyecmpht"],
+    "tags": ["Rabid Pool"],
+    "link": "https://pool.rabidmining.com/bch"
   }
 ]
