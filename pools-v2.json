@@ -1592,7 +1592,7 @@
     "id": 208,
     "name": "SoloFury",
     "addresses": [],
-    "tags": ["SoloFury BCH"],
+    "tags": ["SoloFury BCH", "SoloFury"],
     "link": "https://solofury.com"
   },
   {
@@ -1678,9 +1678,9 @@
   {
     "id": 220,
     "name": "MySoloPool",
-    "addresses": [],
-    "tags": ["Mysolopool.com-BCH"],
-    "link": "https://mysolopool.com/"
+    "addresses": ["bitcoincash:qpyhp665m52n7ehm660dfnjg4tesg5lt7crjv3p4df"],
+    "tags": ["Mysolopool.com-BCH", "Mysolopool.com"],
+    "link": "https://bitcoincash.mysolopool.com/"
   },
   {
     "id": 221,
@@ -1730,5 +1730,12 @@
     "addresses": ["bitcoincash:qrtrtv77m8y9m0ljfughee6zj33pgmv4hccyecmpht"],
     "tags": ["Rabid Pool"],
     "link": "https://pool.rabidmining.com/bch"
+  },
+  {
+    "id": 228,
+    "name": "BritPool",
+    "addresses": [],
+    "tags": ["/BritPool/"],
+    "link": "https://britpool.com"
   }
 ]
