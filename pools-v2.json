@@ -1592,7 +1592,7 @@
     "id": 208,
     "name": "SoloFury",
     "addresses": [],
-    "tags": ["SoloFury BCH"],
+    "tags": ["SoloFury BCH", "SoloFury"],
     "link": "https://solofury.com"
   },
   {
@@ -1605,4 +1605,143 @@
     ],
     "tags": ["/MikeyRocks/", "MikeyRocks"],
     "link": ""
+    "addresses": [],
+    "tags": ["/MikeyRocks/", "MikeyRocks"],
+    "link": ""
+  },
+  {
+    "id": 210,
+    "name": "FenixPool",
+    "addresses": ["bitcoincash:qzxdv0pelqju6k2wxqnsggxtn34c8rwnecnnwzkgzs"],
+    "tags": ["fenixpool.com"],
+    "link": "https://fenixpool.com"
+  },
+  {
+    "id": 211,
+    "name": "AlphaSoloPool",
+    "addresses": [
+      "bitcoincash:qq66dg3vhczrqf4zy4kxje3c45vz47khsufsludxcc",
+      "bitcoincash:pprnm6y6u6hstsf6mtm0rd6t6jtvgu56egykdau069"
+    ],
+    "tags": ["/AlphaSoloPool.com/"],
+    "link": "https://alphasolopool.com"
+  },
+  {
+    "id": 212,
+    "name": "OwnBlock",
+    "addresses": ["bitcoincash:qr6zwanr9d2v4xqjqmylumzh0sey4z2t8qv5mrt9uk"],
+    "tags": ["/ownblock/"],
+    "link": "https://ownblock.io"
+  },
+  {
+    "id": 213,
+    "name": "BCH Solo mining",
+    "addresses": ["bitcoincash:qpx8l4yknwpmca8zar98crm353n6hphz8glnvvxgha"],
+    "tags": ["/BCH Solo mining/"],
+    "link": ""
+  },
+  {
+    "id": 214,
+    "name": "bitcoincash.ee Pool",
+    "addresses": ["bitcoincash:qr9fs2jzrxrcc3qhpqaq26ttq0g0us4jh5n35pddsc"],
+    "tags": ["/bitcoincash.ee/"],
+    "link": "https://bitcoincash.ee"
+  },
+  {
+    "id": 215,
+    "name": "Kardan Solo Pool",
+    "addresses": [],
+    "tags": ["KardanPool", "/Kardan Solo BCH/"],
+    "link": "https://kardanpool.com"
+  },
+  {
+    "id": 216,
+    "name": "Mine.RealBitcoin.Cash",
+    "addresses": [],
+    "tags": ["Mine.RealBitcoin.Cash"],
+    "link": "https://mine.realbitcoin.cash"
+  },
+  {
+    "id": 217,
+    "name": "LoneStrike Cash",
+    "addresses": [],
+    "tags": ["/LoneStrike Cash/"],
+    "link": ""
+  },
+  {
+    "id": 218,
+    "name": "Japas Miner",
+    "addresses": [],
+    "tags": ["/japasminer/"],
+    "link": ""
+  },
+  {
+    "id": 219,
+    "name": "FastPooL.XyZ",
+    "addresses": [],
+    "tags": ["/FastPool.XyZ/"],
+    "link": "https://fastpool.xyz/"
+  },
+  {
+    "id": 220,
+    "name": "MySoloPool",
+    "addresses": ["bitcoincash:qpyhp665m52n7ehm660dfnjg4tesg5lt7crjv3p4df"],
+    "tags": ["Mysolopool.com-BCH", "Mysolopool.com"],
+    "link": "https://bitcoincash.mysolopool.com/"
+  },
+  {
+    "id": 221,
+    "name": "SoloPool.eu",
+    "addresses": [],
+    "tags": ["/solopool.eu/"],
+    "link": "https://solopool.eu/"
+  },
+  {
+    "id": 222,
+    "name": "wenblockniceha.sh",
+    "addresses": [],
+    "tags": ["wenblockniceha.sh"],
+    "link": "https://wenblockniceha.sh/"
+  },
+  {
+    "id": 223,
+    "name": "Nitopool",
+    "addresses": [],
+    "tags": ["Nitopool.online"],
+    "link": "https://pool.nitopool.online/"
+  },
+  {
+    "id": 224,
+    "name": "Doutor Score",
+    "addresses": ["bitcoincash:qrfc9tvc5dx4ywgmnxj5yy95xdrg7ra9eupjeshhfq"],
+    "tags": ["/Doutor Score/"],
+    "link": ""
+  },
+  {
+    "id": 225,
+    "name": "SoloMiners space",
+    "addresses": [],
+    "tags": ["SoloMiners.space"],
+    "link": "https://solominers.space/"
+  },
+  {
+    "id": 226,
+    "name": "Solo-Odds",
+    "addresses": ["bitcoincash:qr53f5nze3dj5jj86qnkyzkp634v66hrnufeqkl24z"],
+    "tags": ["/Solo-Odds.com/"],
+    "link": "https://solo-odds.com/pool/"
+  },
+  {
+    "id": 227,
+    "name": "Rabid Pool",
+    "addresses": ["bitcoincash:qrtrtv77m8y9m0ljfughee6zj33pgmv4hccyecmpht"],
+    "tags": ["Rabid Pool"],
+    "link": "https://pool.rabidmining.com/bch"
+  },
+  {
+    "id": 228,
+    "name": "BritPool",
+    "addresses": [],
+    "tags": ["/BritPool/"],
+    "link": "https://britpool.com"
   }
