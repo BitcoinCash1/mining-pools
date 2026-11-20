@@ -1739,6 +1739,13 @@
     "name": "BritPool",
     "addresses": [],
     "tags": ["/BritPool/"],
-    "link": "https://britpool.com"
+    "link": "https://britpool.com/"
+  },
+  {
+    "id": 229,
+    "name": "HashPoolPro",
+    "addresses": [],
+    "tags": ["/hashpoolpro.com/"],
+    "link": "https://hashpoolpro.com/"
   }
 ]
