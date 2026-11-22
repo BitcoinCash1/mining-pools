@@ -1747,5 +1747,12 @@
     "addresses": [],
     "tags": ["/hashpoolpro.com/"],
     "link": "https://hashpoolpro.com/"
+  },
+  {
+    "id": 230,
+    "name": "BlockSniper.ai",
+    "addresses": [],
+    "tags": ["/BlockSniper.ai/"],
+    "link": "https://blocksniper.ai/"
   }
 ]
